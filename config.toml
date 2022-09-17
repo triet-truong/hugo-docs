@@ -1,0 +1,4 @@
+baseURL = 'https://triet-truong.github.io/'
+languageCode = 'en-us'
+title = 'Triet Docs'
+theme = "hugo-book"

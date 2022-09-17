@@ -1,4 +1,5 @@
-baseURL = 'https://triet-truong.github.io/'
+baseURL = 'https://triet-truong.github.io/hugo-docs/'
 languageCode = 'en-us'
-title = 'Triet Docs'
+title = 'My New Hugo Site'
+publishDir = "docs"
 theme = "hugo-book"

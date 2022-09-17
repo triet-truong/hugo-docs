@@ -1,4 +1,4 @@
-baseURL = 'https://triet-truong.github.io/'
+baseURL = 'https://triet-truong.github.io/triet-docs/'
 languageCode = 'en-us'
 title = 'Triet Docs'
 theme = "hugo-book"

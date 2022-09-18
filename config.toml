@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'Triet docs'
 publishDir = "docs"
 theme = "hugo-book"
-disablePathToLower = 'false'
+disablePathToLower = false
+enableGitInfo = true
 
 [params]
   BookSection = '*'

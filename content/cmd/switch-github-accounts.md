@@ -17,19 +17,23 @@ Assume we have two SSH private keys:
   cat ~/.ssh/config
   ```
 
+<details open>
+    <summary>Content</summary>  
+
   ```bash
   # Work account, - the default config
   Host github.com
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_rsa
-  
+
   # Personal account
   Host github.com-triet_truong    
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_rsa_triet_truong
   ```
+</details>
 
 ## Navigate to a personal repository
 
@@ -70,4 +74,4 @@ Assume we have two SSH private keys:
 
 ## More details
 
-<https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/s>
+<https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/>

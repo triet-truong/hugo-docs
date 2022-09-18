@@ -1,5 +1,8 @@
 baseURL = 'https://triet-truong.github.io/hugo-docs/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Triet docs'
 publishDir = "docs"
 theme = "hugo-book"
+
+[params]
+  BookSection = '*'

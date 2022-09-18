@@ -1,7 +1,15 @@
----
-title: "My First Post"
-date: 2022-09-17T18:02:34+07:00
-draft: false
-# bookComments: false
-# bookSearchExclude: false
----
+# My first post
+
+Mock content
+
+## Section 1
+
+Test
+
+## Section 2
+
+Test
+
+## Section 3
+
+Test

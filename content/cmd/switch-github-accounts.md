@@ -44,11 +44,11 @@ Assume we have two SSH private keys:
 ## Configure local credential
 
   ```bash
-  git config --local credential.name "my-name"    
+  git config --local user.name "my-name"    
   ``` 
 
   ```bash
-  git config --local credential.email "my-personal-account-email"
+  git config --local user.email "my-personal-account-email"
   ```
 
 ## Switch key

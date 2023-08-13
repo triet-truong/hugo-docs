@@ -18,17 +18,11 @@ Host github.com-triet_truong
    IdentitiesOnly yes
 ```
 
-In the *personal* repository, configure `origin` using the specified host alias `github.com-triet_truong`:
-
+In the *personal* repository, update `origin` using the specified host alias `github.com-triet_truong`:
 ```bash
-git remote add origin github.com-triet_truong:triet-truong/hugo-docs
+$ cd ~/Documents/projects/hugo-docs
+$ git remote set-url origin github.com-triet_truong:triet-truong/hugo-docs
 ```
-
-- If origin is already configured, then update it:
-
-    ```bash
-    git remote set-url origin github.com-triet_truong:triet-truong/hugo-docs
-    ```
 
 Verify by using `git push`
 

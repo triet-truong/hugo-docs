@@ -31,6 +31,8 @@ Host github.com-triet_truong
    IdentitiesOnly yes
 ```
 
+The personal host alias `github.com-triet_truong` is mapped with the key `~/.ssh/id_rsa_triet_truong`.
+
 ## Navigate to a personal repository
 
 ```bash
@@ -48,6 +50,12 @@ cd ~/Documents/projects/my-personal-repo
   ```
 
 ## Update `origin` URL
+
+URL format: `<host>:<username>/<repo>`. Where:
+- `<host>`: The personal host alias in `~/.ssh/config`. In this case, it is `github.com-triet_truong`.
+- `<username>`: The username of the account.
+- `<repo>`: The repository name.
+
 
 ```bash
 git remote set-url origin github.com-triet_truong:triet-truong/hugo-docs

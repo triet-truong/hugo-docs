@@ -1,6 +1,19 @@
 # Git multiple SSH keys
 
-Edit `~/.ssh/config` file, add the `# Personal account` block:
+## Prerequesites
+
+Assume we have two SSH private keys:
+
+- Work account `~/.ssh/id_rsa`
+- Personal account: `~/.ssh/id_rsa_triet_truong`
+
+## Create config file
+
+```bash
+cat ~/.ssh/config
+```
+
+Content:
 
 ```text
 # Work account, - the default config
@@ -18,10 +31,26 @@ Host github.com-triet_truong
    IdentitiesOnly yes
 ```
 
-In the *personal* repository, update `origin` using the specified host alias `github.com-triet_truong`:
+## Navigate to a personal repository
+
 ```bash
-$ cd ~/Documents/projects/hugo-docs
-$ git remote set-url origin github.com-triet_truong:triet-truong/hugo-docs
+cd ~/Documents/projects/my-personal-repo
+```
+
+## Configure local credential
+
+  ```bash
+  git config --local user.name "my-name"    
+  ``` 
+
+  ```bash
+  git config --local user.email "my-personal-account-email"
+  ```
+
+## Update `origin` URL
+
+```bash
+git remote set-url origin github.com-triet_truong:triet-truong/hugo-docs
 ```
 
 Verify by using `git push`
